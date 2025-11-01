@@ -1,0 +1,136 @@
+V "GNAT Lib v2021"
+M P W=b
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLICIT_LOOPS
+RV STATIC_DISPATCH_TABLES
+
+U solucao_7_e_8%b	solucao_7_e_8.adb	b07ac2d5 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.enumeration_aux%s  a-tienau.adb	a-tienau.ali
+Z ada.text_io.enumeration_io%s
+Z system%s		system.ads		system.ali
+Z system.address_image%s  s-addima.adb		s-addima.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+Z system.val_enum_8%s	s-vaenu8.ads		s-vaenu8.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-inteio.ads		20210520051128 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tienau.ads		20210520051130 6a9c157b ada.text_io.enumeration_aux%s
+D a-tienio.ads		20210520051130 2e79c9bf ada.text_io.enumeration_io%s
+D a-tienio.adb		20210520051130 c9e6b5af ada.text_io.enumeration_io%b
+D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D solucao_7_e_8.adb	20251101212850 e8c59e1c solucao_7_e_8%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-addima.ads		20210520051132 a1ec9d3a system.address_image%s
+D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-stratt.ads		20210520051134 7bdda3fa system.stream_attributes%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-vaenu8.ads		20210520051134 b7b91426 system.val_enum_8%s
+D s-valuen.ads		20210520051134 72b74993 system.value_n%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [solucao_7_e_8 standard 5 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 18|2r6 2r23 3r6 54r31 62r10 64r10 88r10
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[14|46] 18|3w10 62r14 64r14 88r14
+X 10 a-textio.ads
+58K13*Text_IO 725e16 18|2w10 2r27 54r35
+87I12*Field{integer}
+262U14*New_Line 18|65s10 114s4 117s4 120s4
+463U14*Put 18|60s10 62s60 63s39 73s10 86s10
+506U14*Put_Line 18|75s13 77s13 89s10 95s10 111s4
+X 12 a-tienio.ads
+26k21*Enumeration_IO 76e31 18|54r43
+52U14 Put 18|63s19[54]
+X 14 a-tiinio.ads
+80U14*Put 18|62s30[3|18] 64s30[3|18] 88s30[3|18]
+82i7 Width{10|87I12} 18|62r47[3|18] 64r48[3|18] 88r56[3|18]
+X 18 solucao_7_e_8.adb
+5U11*Solucao_7_e_8 5b11 122l5 122t18
+8K12 People 49l8 49e14 52b17 99l8 99t14 103r8
+11E12 Month_Name 12e56 16r18 54r59
+11n27 Jan{11E12} 106r42
+11n32 Feb{11E12}
+11n37 Mar{11E12} 107r43
+11n42 Apr{11E12}
+11n47 May{11E12}
+11n52 Jun{11E12}
+12n27 Jul{11E12} 108r43
+12n32 Aug{11E12}
+12n37 Sep{11E12}
+12n42 Oct{11E12}
+12n47 Nov{11E12}
+12n52 Dec{11E12}
+14R12 Date 18e17 22r18
+15i10 Day{integer} 62r42
+16e10 Month{11E12} 63r31
+17i10 Year{integer} 64r42
+21R12 Person 23e17 26p17 26r39 29r23 38r25 47r40 58r39 72r24 85r24 93r40
+. 106r18
+22r10 Birth{14R12} 62m36 63m25 64m36 106m29 107m29 108m29
+26U17 Print_Details 26>32 58b17 66l11 66t24 72s10 85s10 96R10
+26r32 P{21R12} 58b32 62m34 62r34 63m23 63r23 64m34 64r34
+29R12 Man<21R12> 31e17 35P17 35r39 70r39 107r18
+30b10 Has_Beard{boolean} 74r15 107m55
+35U17 Print_Details<26p17> 35>32 70b17 79l11 79t24
+35r32 M{29R12} 70b32 72r31 74r13
+38R12 Woman<21R12> 40e17 44P17 44r39 83r39 108r18
+39i10 Children_Breastfed{natural} 88r36 108m55
+44U17 Print_Details<26p17> 44>32 83b17 90l11 90t24
+44r32 W{38R12} 83b32 85r31 88r34
+47U17 Analyze_Person 47>33 93b17 97l11 97t25 113s4 116s4 119s4
+47c33 P<21R12> 93b33 96r24
+54K15 Month_IO[12|26] 63r10
+106r4 Some_Person{21R12} 113r19
+107r4 Some_Man{29R12} 116r19
+108r4 Some_Woman{38R12} 119r19
+
